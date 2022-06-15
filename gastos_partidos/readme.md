@@ -13,8 +13,8 @@ donwload dos dados [aqui](https://basedosdados.org/dataset/br-me-rais?bdm_table=
 
 ## 📷 Imagens do projeto
 
-![Alt text](/img1.png?raw=true "Painel")
-![Alt text](/img2.png?raw=true "Painel")
+![Alt text](img1.png?raw=true "Painel")
+![Alt text](img2.png?raw=true "Painel")
 
 # Instalação
 Para executar os algoritmos dese repositório recomenda-se a 
