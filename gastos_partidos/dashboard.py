@@ -65,7 +65,7 @@ group_valor_descricao = df.groupby(['Descrição', 'Partido', 'Ano'])[['Valor L�
 
 
 header = html.H4(
-    "Gastos dos partido", className="bg-primary text-white my-2 text-center"
+    "Gastos dos partidos políticos", className="bg-primary text-white my-2 text-center"
 )
 
 valor_partido = group_valor_partido[(group_valor_partido['Partido'] == 'PT') & (group_valor_partido['Ano'] == 2020)]
