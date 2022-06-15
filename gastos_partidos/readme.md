@@ -1,0 +1,1 @@
+donwload dos dados [aqui](https://basedosdados.org/dataset/br-me-rais?bdm_table=microdados_vinculos)
