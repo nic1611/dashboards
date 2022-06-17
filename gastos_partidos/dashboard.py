@@ -71,7 +71,7 @@ header = html.H4(
 valor_partido = group_valor_partido[(group_valor_partido['Partido'] == 'PT') & (group_valor_partido['Ano'] == 2020)]
 valor_descricao = group_valor_descricao[(group_valor_descricao['Partido'] == 'PT') & (group_valor_descricao['Ano'] == 2020)]
 
-fig = px.bar(valor_partido, x="Mês", y="Valor Líquido", barmode="group", title="Gastos Mensal", color="Mês", text='Valor Líquido', template="vapor")
+fig = px.bar(valor_partido, x="Mês", y="Valor Líquido", barmode="group", title="Gasto Mensal", color="Mês", text='Valor Líquido', template="vapor")
 fig.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
 fig.update_yaxes(visible=False, showticklabels=False)
 
@@ -136,10 +136,9 @@ def chem_info_on_hover(partido_hoverData, ano_hoverData):
     valor_partido = group_valor_partido[(group_valor_partido['Partido'] == partido_hoverData) & (group_valor_partido['Ano'] == ano_hoverData)]
     valor_descricao = group_valor_descricao[(group_valor_descricao['Partido'] == partido_hoverData) & (group_valor_descricao['Ano'] == ano_hoverData)]
 
-    fig = px.bar(valor_partido, x="Mês", y="Valor Líquido", barmode="group", title="Gastos Mensal", color="Mês", text='Valor Líquido', template="vapor")
+    fig = px.bar(valor_partido, x="Mês", y="Valor Líquido", barmode="group", title="Gasto Mensal", text='Valor Líquido', template="vapor")
     fig.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
     fig.update_yaxes(visible=False, showticklabels=False)
-
 
     fig2 = px.bar(valor_descricao, y="Descrição", x="Valor Líquido", barmode="group", title="Gastos por Categoria", orientation='h', text='Valor Líquido', template="vapor")
     fig2.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
