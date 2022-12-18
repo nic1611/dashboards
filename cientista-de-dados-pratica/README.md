@@ -8,7 +8,7 @@
 * [Tecnologias](#tecnologias)
 
 ## Imagens
-![Alt text](/static/sistema-previsao.PNG?raw=true "Tela de produto")
+![Alt text](static/sistema-previsao.PNG?raw=true "Tela de produto")
 
 ## Instalação
 ##### Após clonar o repositório digite os comandos: 
